@@ -11,15 +11,17 @@
 		1D1B17FD2715AED2008132D6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D1B17FC2715AED2008132D6 /* ContentView.swift */; };
 		1D1B17FF2715AED3008132D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1B17FE2715AED3008132D6 /* Assets.xcassets */; };
 		1D1B18022715AED3008132D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D1B18012715AED3008132D6 /* Preview Assets.xcassets */; };
+		1DD95AC827182A3200C0995D /* Converter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD95AC727182A3200C0995D /* Converter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1D1B17F72715AED2008132D6 /* Project1weSplit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project1weSplit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D1B17F72715AED2008132D6 /* We Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D1B17FA2715AED2008132D6 /* Project1weSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project1weSplitApp.swift; sourceTree = "<group>"; };
 		1D1B17FC2715AED2008132D6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1D1B17FE2715AED3008132D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D1B18012715AED3008132D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D1B18032715AED3008132D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1DD95AC727182A3200C0995D /* Converter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Converter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,7 +46,7 @@
 		1D1B17F82715AED2008132D6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D1B17F72715AED2008132D6 /* Project1weSplit.app */,
+				1D1B17F72715AED2008132D6 /* We Split.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				1D1B17FA2715AED2008132D6 /* Project1weSplitApp.swift */,
+				1DD95AC727182A3200C0995D /* Converter.swift */,
 				1D1B17FC2715AED2008132D6 /* ContentView.swift */,
 				1D1B17FE2715AED3008132D6 /* Assets.xcassets */,
 				1D1B18032715AED3008132D6 /* Info.plist */,
@@ -86,7 +89,7 @@
 			);
 			name = Project1weSplit;
 			productName = Project1weSplit;
-			productReference = 1D1B17F72715AED2008132D6 /* Project1weSplit.app */;
+			productReference = 1D1B17F72715AED2008132D6 /* We Split.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D1B17FD2715AED2008132D6 /* ContentView.swift in Sources */,
+				1DD95AC827182A3200C0995D /* Converter.swift in Sources */,
 				1D1B17FB2715AED2008132D6 /* Project1weSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +281,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Project1weSplit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "We Split";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Project1weSplit;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "We Split";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
